@@ -104,6 +104,22 @@ ul {
 	z-index: 2;
 }
 
+.range-toggle:focus,
+.range-toggle:focus+.catalog-filter-label,
+.range-toggle:focus+.catalog-filter-label .catalog-filter-label,
+.control-input:focus+.control-mark,
+.control-input:focus~.control-label,
+.control-input[type="checkbox"]:focus+.control-mark::before,
+.control-input[type="radio"]:focus+.control-mark::before {
+  color: #af4fff;
+  border-color: #af4fff;
+  outline: 1px solid #af4fff;
+}
+.control-input:focus+.control-mark{
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
+}
+
 .page-header {
 	background: linear-gradient(to bottom, #ffffff 40px, #FFE17F 40px);
 	padding: 17px 60px 10px;
@@ -2611,6 +2627,23 @@ h3 {
 	border-radius: 50%;
 }
 
+.socials-link-twitter{
+  display: flex;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.socials-link-twitter:focus{
+  opacity: 1;
+	background-color: #444444;
+	outline: 5px solid #af4fff;
+}
+
+.socials-link-twitter:focus svg {
+	fill: #ffffff;
+}
+
 .socials-item:not(:last-child) {
 	margin-right: 15px;
 }
@@ -2640,6 +2673,19 @@ h3 {
 }
 
 .socials-link:active svg {
+	opacity: 0.3;
+}
+
+.socials-link-twitter:hover {
+	outline: none;
+	background-color: #ffc700;
+}
+
+.socials-link-twitter:hover svg {
+	fill: #444444;
+}
+
+.socials-link-twitter:active svg {
 	opacity: 0.3;
 }
 
