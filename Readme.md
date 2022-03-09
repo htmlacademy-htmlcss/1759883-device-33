@@ -1,6 +1,6 @@
 # Личный проект «Девайс»
 
-* Студент: [Дмитрий Крылов](https://up.htmlacademy.ru/htmlcss/33/user/1759883).
+* Студент: [Дмитрий Крылов](https://htmlacademy.ru/profile/ruyanxz).
 * Наставник: [Станислав Михайлов](https://htmlacademy.ru/profile/id139638).
 
 ---
@@ -18,7 +18,7 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 #### 2. Создайте форк
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/1759883-device-33) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
+[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/1837791-device-32) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
 
 <img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29038004-a420d688-7bae-11e7-9a40-8f72e1f3cac4.jpg">
 
