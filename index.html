@@ -33,7 +33,7 @@
             <li class="navigation-user-item basket-item">
               <a class="navigation-user-link basket-link" href="#">Корзина</a>
             </li>
-            <div class="popover popover-basket popover-close"> <!--для открытия убрать класс "popover-close"-->
+            <li class="popover popover-basket popover-close"> <!--для открытия убрать класс "popover-close"-->
               <div class="popover-content">
                 <h2 class="visually-hidden">Корзина</h2>
                 <ul class="basket-items-list">
@@ -70,50 +70,50 @@
                   Открыть корзину
                 </button>
               </div>
-            </div>
+            </li>
           </ul>
         </div>
         <div class="navigation-catalog-wrapper">
           <div class="navigation-catalog">
             <button class="navigation-catalog-button navigation-catalog-close" type="button" name="navigation-catalog-button">Каталог товаров</button>  <!-- Для открытия меню убрать стиль "navigation-catalog-close" -->
-            <ul class="navigation-catalog-list"> <!--Список скрывается/отображается по клику кнопки-->
+            <div class="navigation-catalog-list"> <!--Список скрывается/отображается по клику кнопки-->
               <div class="navigation-item-wrapper">
-                <li class="navigation-catalog-item">
+                <div class="navigation-catalog-item">
                   <a href="#" class="navigation-catalog-link">Виртуальная реальность</a>
-                </li>
-                <li class="navigation-catalog-item">
+                </div>
+                <div class="navigation-catalog-item">
                   <a href="catalog.html" class="navigation-catalog-link">Моноподы для cелфи</a>
-                </li>
-                <li class="navigation-catalog-item">
+                </div>
+                <div class="navigation-catalog-item">
                   <a href="#" class="navigation-catalog-link">Экшн-камеры</a>
-                </li>
+                </div>
               </div>
               <div class="navigation-item-wrapper">
-                <li class="navigation-catalog-item">
+                <div class="navigation-catalog-item">
                   <a href="#" class="navigation-catalog-link">Фитнес-браслеты</a>
-                </li>
-                <li class="navigation-catalog-item">
+                </div>
+                <div class="navigation-catalog-item">
                   <a href="#" class="navigation-catalog-link">Умные часы</a>
-                </li>
+                </div>
               </div>
               <div class="navigation-item-wrapper">
-                <li class="navigation-catalog-item">
+                <div class="navigation-catalog-item">
                   <a href="#" class="navigation-catalog-link">Квадрокоптеры</a>
-                </li>
+                </div>
               </div>
-            </ul>
+            </div>
           </div>
-          <ul class="navigation-advantages-list">
-              <li class="navigation-advantages-item">
+          <div class="navigation-advantages-list">
+              <div class="navigation-advantages-item">
               <a href="#" class="navigation-advantages-link">Доставка</a>
-            </li>
-            <li class="navigation-advantages-item">
+            </div>
+            <div class="navigation-advantages-item">
               <a href="#" class="navigation-advantages-link">Гарантия</a>
-            </li>
-            <li class="navigation-advantages-item">
+            </div>
+            <div class="navigation-advantages-item">
               <a href="#" class="navigation-advantages-link">Контакты</a>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
@@ -162,7 +162,7 @@
             </div>
           </li>
           <li class="slider-card">
-            <img class="slider-image" src="images/slider-3.png"width="560" height="560" alt="Монопод для селфи" >
+            <img class="slider-image" src="images/slider-3.png" width="560" height="560" alt="Монопод для селфи" >
             <div class="slider-text-wrapper">
               <h3 class="slider-title">Делай селфи, как Бен Стиллер!</h3>
               <p class="slider-text">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.</p>
@@ -242,7 +242,7 @@
           <ul class="main-advantages-list">
             <li class="main-advantages-item advantages-delivery advantages-item-active">
               <h3 class="main-advantages-title">Доставка</h3>
-              <p class="main-advantages-text">Мы с удовольствием доставим ваш товар прямо <br> к вашему подъезду совершенно бесплатно! Ведь <br> мы неплохо заработаем, поднимая его на ваш этаж.</p>
+              <p class="main-advantages-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
             </li>
             <li class="main-advantages-item advantages-guarantee">
               <h3 class="main-advantages-title">Гарантия</h3>
@@ -417,7 +417,7 @@
               <input class="delivery-form-field field" type="text" id="delivery-description" name="delivery-description" placeholder="В свободной форме">
             </p>
             <p class="field-group quantity-group">
-              <label class="delivery-quantity-label label" for="delivery-quantity">Количество:
+              <label class="delivery-quantity-label label">Количество:
                 <button class="quantity-info-button" type="button">i</button>
                 <span class="quantity-info-tooltip">Постараемся найти, сколько нужно. Привезём сколько получится по требованиям к провозу багажа.</span>
               </label>

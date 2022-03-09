@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Каталог</title>
-    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" href="./image/favicons/favicon.ico" type="image/x-icon">
   </head>
   <body>
 
@@ -36,7 +36,7 @@
             <li class="navigation-user-item basket-item">
               <a class="navigation-user-link basket-link" href="#">Корзина</a>
             </li>
-            <div class="popover popover-basket popover-close"> <!--для открытия убрать класс "popover-close"-->
+            <li class="popover popover-basket popover-close"> <!--для открытия убрать класс "popover-close"-->
               <div class="popover-content">
                 <h2 class="visually-hidden">Корзина</h2>
                 <ul class="basket-items-list">
@@ -73,50 +73,50 @@
                   Открыть корзину
                 </button>
               </div>
-            </div>
+            </li>
           </ul>
         </div>
         <div class="navigation-catalog-wrapper">
           <div class="navigation-catalog">
             <button class="navigation-catalog-button navigation-catalog-close" type="button" name="navigation-catalog-button">Каталог товаров</button>  <!-- Для открытия меню убрать стиль "navigation-catalog-close" -->
-            <ul class="navigation-catalog-list"> <!--Список скрывается/отображается по клику кнопки-->
+            <div class="navigation-catalog-list"> <!--Список скрывается/отображается по клику кнопки-->
               <div class="navigation-item-wrapper">
-                <li class="navigation-catalog-item">
+                <div class="navigation-catalog-item">
                   <a href="#" class="navigation-catalog-link">Виртуальная реальность</a>
-                </li>
-                <li class="navigation-catalog-item">
+                </div>
+                <div class="navigation-catalog-item">
                   <a href="#" class="navigation-catalog-link navigation-catalog-link-current">Моноподы для cелфи</a>
-                </li>
-                <li class="navigation-catalog-item">
+                </div>
+                <div class="navigation-catalog-item">
                   <a href="#" class="navigation-catalog-link">Экшн-камеры</a>
-                </li>
+                </div>
               </div>
               <div class="navigation-item-wrapper">
-                <li class="navigation-catalog-item">
+                <div class="navigation-catalog-item">
                   <a href="#" class="navigation-catalog-link">Фитнес-браслеты</a>
-                </li>
-                <li class="navigation-catalog-item">
+                </div>
+                <div class="navigation-catalog-item">
                   <a href="#" class="navigation-catalog-link">Умные часы</a>
-                </li>
+                </div>
               </div>
               <div class="navigation-item-wrapper">
-                <li class="navigation-catalog-item">
+                <div class="navigation-catalog-item">
                   <a href="#" class="navigation-catalog-link">Квадрокоптеры</a>
-                </li>
+                </div>
               </div>
-            </ul>
+            </div>
           </div>
-          <ul class="navigation-advantages-list">
-              <li class="navigation-advantages-item">
+          <div class="navigation-advantages-list">
+              <div class="navigation-advantages-item">
               <a href="#" class="navigation-advantages-link">Доставка</a>
-            </li>
-            <li class="navigation-advantages-item">
+            </div>
+            <div class="navigation-advantages-item">
               <a href="#" class="navigation-advantages-link">Гарантия</a>
-            </li>
-            <li class="navigation-advantages-item">
+            </div>
+            <div class="navigation-advantages-item">
               <a href="#" class="navigation-advantages-link">Контакты</a>
-            </li>
-          </ul>
+            </div>
+        </div>
         </div>
       </nav>
     </header>

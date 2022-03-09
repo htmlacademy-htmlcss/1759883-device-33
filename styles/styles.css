@@ -253,7 +253,6 @@ body {
   position: relative;
 
   padding: 5px 0;
-  margin-right: 52px;
 }
 
 .navigation-user-item-out:hover {
@@ -483,11 +482,12 @@ body {
 }
 
 .navigation-user-item:not(:last-of-type) {
-  margin-right: 61px;
+  margin-left: 61px;
 }
 
 .navigation-user-item:first-child {
   margin-right: auto;
+  margin-left: 0;
 }
 
 .navigation-user-link {
@@ -516,6 +516,10 @@ body {
 
 .navigation-user-link:focus::before {
   outline: 2px solid #af4fff;
+}
+
+.navigation-catalog-item{
+  list-style: none;
 }
 
 .navigation-user-link-out {
